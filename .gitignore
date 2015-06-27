@@ -25,3 +25,18 @@ build/Release
 # Dependency directory
 # https://www.npmjs.org/doc/misc/npm-faq.html#should-i-check-my-node_modules-folder-into-git
 node_modules
+
+# SASS cache
+.sass-cache/
+
+# bower libraries
+public/lib
+.bower-*/
+
+# coverage tests
+app/tests/coverage/
+
+# other files and directories from the MEAN-Stack
+.DS_Store
+.nodemonignore
+.idea/
